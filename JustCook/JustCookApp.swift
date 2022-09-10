@@ -11,7 +11,8 @@ import SwiftUI
 struct JustCookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // the JustCookIt! user work flow begins in the MainTabView
+            MainTabView()
         }
     }
 }

@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0937727728CCFDF600274D28 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 0937727628CCFDF600274D28 /* AppIcon.appiconset */; };
+		094C17E028AE254A00C4DA70 /* RandomRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C17DF28AE254A00C4DA70 /* RandomRecipeView.swift */; };
+		094C17E228AFCB1D00C4DA70 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C17E128AFCB1D00C4DA70 /* GuideView.swift */; };
+		0975C2BA28801A4D000430FC /* JustCookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975C2B928801A4D000430FC /* JustCookApp.swift */; };
+		0975C2BE28801A4E000430FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0975C2BD28801A4E000430FC /* Assets.xcassets */; };
+		0975C2C128801A4E000430FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0975C2C028801A4E000430FC /* Preview Assets.xcassets */; };
+		0975C2DA28814BB9000430FC /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975C2D928814BB9000430FC /* RecipeData.swift */; };
+		09ABE4DA2886166F00B98380 /* FindRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ABE4D92886166F00B98380 /* FindRecipesView.swift */; };
+		09B21E7A288D654B002924AD /* recipe_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 09B21E79288D654B002924AD /* recipe_data.json */; };
+		09B21E7C288D6586002924AD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B21E7B288D6586002924AD /* Recipe.swift */; };
+		09CC02412899324300F6D463 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC02402899324300F6D463 /* FavoritesView.swift */; };
+		09CC02432899817E00F6D463 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC02422899817E00F6D463 /* MainTabView.swift */; };
+		09D2AB022883078A00041FDA /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2AB012883078A00041FDA /* WelcomePageView.swift */; };
+		09D2AB0428830DE200041FDA /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2AB0328830DE200041FDA /* HomeScreenView.swift */; };
+		09D2AB1C2884349500041FDA /* InputIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2AB1B2884349500041FDA /* InputIngredientsView.swift */; };
+		09E2B47C288DB71000D84342 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 09E2B47B288DB71000D84342 /* data */; };
+		09E2B47E288E945B00D84342 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2B47D288E945B00D84342 /* RecipeDetailView.swift */; };
+		09E2B4AA289654AD00D84342 /* MakeRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2B4A9289654AD00D84342 /* MakeRecipeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0937727528CAD50D00274D28 /* JustCook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JustCook.entitlements; sourceTree = "<group>"; };
+		0937727628CCFDF600274D28 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		094C17DF28AE254A00C4DA70 /* RandomRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRecipeView.swift; sourceTree = "<group>"; };
+		094C17E128AFCB1D00C4DA70 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		0975C2B628801A4D000430FC /* JustCookIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustCookIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0975C2B928801A4D000430FC /* JustCookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCookApp.swift; sourceTree = "<group>"; };
+		0975C2BD28801A4E000430FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0975C2C028801A4E000430FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0975C2D928814BB9000430FC /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		09ABE4D92886166F00B98380 /* FindRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRecipesView.swift; sourceTree = "<group>"; };
+		09B21E79288D654B002924AD /* recipe_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipe_data.json; sourceTree = "<group>"; };
+		09B21E7B288D6586002924AD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		09CC02402899324300F6D463 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		09CC02422899817E00F6D463 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		09D2AB012883078A00041FDA /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		09D2AB0328830DE200041FDA /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		09D2AB1B2884349500041FDA /* InputIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputIngredientsView.swift; sourceTree = "<group>"; };
+		09E2B47B288DB71000D84342 /* data */ = {isa = PBXFileReference; lastKnownFileType = text; path = data; sourceTree = "<group>"; };
+		09E2B47D288E945B00D84342 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		09E2B4A9289654AD00D84342 /* MakeRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeRecipeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0975C2B328801A4D000430FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0975C2AD28801A4D000430FC = {
+			isa = PBXGroup;
+			children = (
+				0975C2B828801A4D000430FC /* JustCook */,
+				0975C2B728801A4D000430FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0975C2B728801A4D000430FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0975C2B628801A4D000430FC /* JustCookIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0975C2B828801A4D000430FC /* JustCook */ = {
+			isa = PBXGroup;
+			children = (
+				0937727528CAD50D00274D28 /* JustCook.entitlements */,
+				0975C2CA28801AD3000430FC /* Views */,
+				0975C2CC28801AE7000430FC /* ViewModels */,
+				0975C2CB28801ADF000430FC /* Models */,
+				0975C2B928801A4D000430FC /* JustCookApp.swift */,
+				0975C2C728801A68000430FC /* Data */,
+				0975C2BD28801A4E000430FC /* Assets.xcassets */,
+				0937727628CCFDF600274D28 /* AppIcon.appiconset */,
+				0975C2BF28801A4E000430FC /* Preview Content */,
+			);
+			path = JustCook;
+			sourceTree = "<group>";
+		};
+		0975C2BF28801A4E000430FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0975C2C028801A4E000430FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0975C2C728801A68000430FC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				09B21E79288D654B002924AD /* recipe_data.json */,
+				09E2B47B288DB71000D84342 /* data */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0975C2CA28801AD3000430FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09CC02422899817E00F6D463 /* MainTabView.swift */,
+				09E2B4A32892828500D84342 /* ExploreRecipes */,
+				09E2B4A22892825700D84342 /* Tabs */,
+				09D2AB012883078A00041FDA /* WelcomePageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0975C2CB28801ADF000430FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09B21E7B288D6586002924AD /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0975C2CC28801AE7000430FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0975C2D928814BB9000430FC /* RecipeData.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		09E2B4A22892825700D84342 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				09D2AB0328830DE200041FDA /* HomeScreenView.swift */,
+				09CC02402899324300F6D463 /* FavoritesView.swift */,
+				094C17DF28AE254A00C4DA70 /* RandomRecipeView.swift */,
+				094C17E128AFCB1D00C4DA70 /* GuideView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		09E2B4A32892828500D84342 /* ExploreRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				09ABE4D92886166F00B98380 /* FindRecipesView.swift */,
+				09D2AB1B2884349500041FDA /* InputIngredientsView.swift */,
+				09E2B47D288E945B00D84342 /* RecipeDetailView.swift */,
+				09E2B4A9289654AD00D84342 /* MakeRecipeView.swift */,
+			);
+			path = ExploreRecipes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0975C2B528801A4D000430FC /* JustCookIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0975C2C428801A4E000430FC /* Build configuration list for PBXNativeTarget "JustCookIt" */;
+			buildPhases = (
+				0975C2B228801A4D000430FC /* Sources */,
+				0975C2B328801A4D000430FC /* Frameworks */,
+				0975C2B428801A4D000430FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustCookIt;
+			productName = JustCook;
+			productReference = 0975C2B628801A4D000430FC /* JustCookIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0975C2AE28801A4D000430FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0975C2B528801A4D000430FC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0975C2B128801A4D000430FC /* Build configuration list for PBXProject "JustCookIt" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0975C2AD28801A4D000430FC;
+			productRefGroup = 0975C2B728801A4D000430FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0975C2B528801A4D000430FC /* JustCookIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0975C2B428801A4D000430FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0975C2C128801A4E000430FC /* Preview Assets.xcassets in Resources */,
+				09E2B47C288DB71000D84342 /* data in Resources */,
+				09B21E7A288D654B002924AD /* recipe_data.json in Resources */,
+				0937727728CCFDF600274D28 /* AppIcon.appiconset in Resources */,
+				0975C2BE28801A4E000430FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0975C2B228801A4D000430FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC02412899324300F6D463 /* FavoritesView.swift in Sources */,
+				09D2AB022883078A00041FDA /* WelcomePageView.swift in Sources */,
+				094C17E228AFCB1D00C4DA70 /* GuideView.swift in Sources */,
+				09E2B47E288E945B00D84342 /* RecipeDetailView.swift in Sources */,
+				09D2AB0428830DE200041FDA /* HomeScreenView.swift in Sources */,
+				094C17E028AE254A00C4DA70 /* RandomRecipeView.swift in Sources */,
+				0975C2DA28814BB9000430FC /* RecipeData.swift in Sources */,
+				09D2AB1C2884349500041FDA /* InputIngredientsView.swift in Sources */,
+				0975C2BA28801A4D000430FC /* JustCookApp.swift in Sources */,
+				09E2B4AA289654AD00D84342 /* MakeRecipeView.swift in Sources */,
+				09B21E7C288D6586002924AD /* Recipe.swift in Sources */,
+				09ABE4DA2886166F00B98380 /* FindRecipesView.swift in Sources */,
+				09CC02432899817E00F6D463 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0975C2C228801A4E000430FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0975C2C328801A4E000430FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0975C2C528801A4E000430FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JustCook/JustCook.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JustCook/Preview Content\"";
+				DEVELOPMENT_TEAM = V7Y6A65QWF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustCook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyanyehya.JustCookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0975C2C628801A4E000430FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JustCook/JustCook.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JustCook/Preview Content\"";
+				DEVELOPMENT_TEAM = V7Y6A65QWF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustCook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyanyehya.JustCookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0975C2B128801A4D000430FC /* Build configuration list for PBXProject "JustCookIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0975C2C228801A4E000430FC /* Debug */,
+				0975C2C328801A4E000430FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0975C2C428801A4E000430FC /* Build configuration list for PBXNativeTarget "JustCookIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0975C2C528801A4E000430FC /* Debug */,
+				0975C2C628801A4E000430FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0975C2AE28801A4D000430FC /* Project object */;
+}
