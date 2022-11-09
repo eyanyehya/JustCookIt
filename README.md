@@ -53,27 +53,34 @@ A big challenge I ran into was finding a good dataset. I wanted it to be in json
         
         // list of users input ingredients lowercased and without whitespace
         var ingredientsLowerCased = ingredients.map({ $0.lowercased() }).map({ $0.trimmingCharacters(in: .whitespacesAndNewlines) })
+        
+        // add some common ingredients 
         ingredientsLowerCased.append("salt")
         ingredientsLowerCased.append("water")
         ingredientsLowerCased.append("sugar")
         ingredientsLowerCased.append("oil")
         ingredientsLowerCased.append("pepper")
         
+        // for all the ingredients that user inputted + the ingredients I added above 
         for ingredient in ingredientsLowerCased {
+            // if there is at least one recipe that requires the ingredient 
             if let recipes = ingredientToRecipeMap[ingredient] {
+                // go through all the recipes that require the ingredient 
                 for recipe in recipes {
-                    // look at one of the recipes in the list of recipes that have the first input ingredient
+                    // look at one of the recipes in the list of recipes that have the input ingredient
                     // look at the raw ingredients of that recipe
                     // if all the ingredients in that recipe are in the input add recipe to output list
                     // this means that all the ingredients needed for the recipe are in the input but not necessarily that all inputs are in the recipe
                     // so eg. input could be [a, b, c] and recipe could be [a, b]
                     if recipe.NER.allSatisfy({ ingredientsLowerCased.contains($0) }) {
+                        // add the recipe to the output list 
                         output.insert(recipe)
                     }
                 }
             }
         }
-
+        
+        // return the list of valid recipes 
         return Array(output)
     }
 ~~~
